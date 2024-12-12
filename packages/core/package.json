@@ -3,6 +3,11 @@
   "type": "module",
   "version": "0.0.1",
   "main": "./dist/index.js",
+  "files": [
+    "README.md",
+    "dist",
+    "package.json"
+  ],
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -39,10 +44,5 @@
       }
     },
     "name": "core"
-  },
-  "files": [
-    "dist",
-    "README.md",
-    "package.json"
-  ]
+  }
 }
